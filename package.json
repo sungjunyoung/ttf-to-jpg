@@ -1,0 +1,22 @@
+{
+  "name": "ttf-to-jpg",
+  "version": "1.0.0",
+  "description": "> node implement that makes .ttf files to .jpg set",
+  "main": "ttf-to-jpg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sungjunyoung/ttf-to-jpg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sungjunyoung/ttf-to-jpg/issues"
+  },
+  "homepage": "https://github.com/sungjunyoung/ttf-to-jpg#readme",
+  "dependencies": {
+    "args": "^3.0.4"
+  }
+}
