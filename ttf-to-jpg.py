@@ -7,7 +7,7 @@ from PIL import ImageFont
 
 
 def parse_args():
-    desc = "ttf fonts to jpg images set (JUST KOREAN)"
+    desc = "ttf/otf fonts to jpg images set (JUST KOREAN)"
     parser = argparse.ArgumentParser(description=desc)
     parser.add_argument('--ttf_dir', type=str, default='ttf_dir',
                         help='directory that includes .ttf files', required=False)
@@ -38,7 +38,6 @@ def main():
     # if jpg_dir not exist
     if not os.path.exists(jpg_dir):
         os.makedirs(jpg_dir)
-
 
     for _, _, ttfs in os.walk(ttf_dir):
         for ttf in ttfs:

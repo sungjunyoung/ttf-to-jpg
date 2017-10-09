@@ -1,6 +1,10 @@
 # ttf-to-jpg
 
-> python implement that makes .ttf files to .jpg set **JUST KOREAN**
+> python implement that makes .ttf/.otf files to .jpg set **JUST KOREAN**
+
+## Screenshot
+
+![screenshot](./assets/screenshot.png)
 
 ## requirement
 - Python 3.6
@@ -11,7 +15,7 @@ pip install -r requirements.txt
 ```
 
 ## usage
-> there are two example fonts (.ttf) in ttf_dir
+> there are two example fonts (.ttf/.otf) in ttf_dir
 
 ```
 ttf-to-jpg.py [-h] [--ttf_dir TTF_DIR] [--jpg_dir JPG_DIR]
@@ -33,4 +37,4 @@ python ttf-to-jpg.py --help
 
 ## Thanks to :)
 - code reference : [zi2zi/font2img.py](https://github.com/kaonashi-tyc/zi2zi/blob/master/font2img.py) by kaonashi-tyc
-- example fonts : [우아한 형제들, 배달의민족 무료 폰트(도현체, 주아체)](http://font.woowahan.com/) by 우아한 형제들
+- example fonts : [우아한 형제들, 배달의민족 무료 폰트(주아체, 연성체)](http://font.woowahan.com/) by 우아한 형제들
