@@ -25,7 +25,6 @@ python ttf-to-jpg.py --help
 
 #### arguments
 - `ttf_dir` : directory that includes .ttf files
-- `ttf_dir` : directory that includes .ttf files
 - `jpg_dir` : directory that includes results of .jpg
 - `size` : size of result jpg
 - `offset` : offset (padding)
