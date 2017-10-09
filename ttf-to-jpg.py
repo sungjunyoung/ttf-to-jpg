@@ -24,6 +24,9 @@ def draw_char(font, char, size, offset):
     img = Image.new("RGB", (size, size), (255, 255, 255))
     draw = ImageDraw.Draw(img)
     draw.text((offset, offset), char, (0, 0, 0), font=font)
+    clrs = img.getcolors()
+    if len(clrs) == 1:
+        return None
     return img
 
 
